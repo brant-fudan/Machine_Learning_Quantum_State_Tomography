@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "mode": "quick",
+  "model": "mlp",
+  "train_states": 2400,
+  "validation_states": 320,
+  "test_states_per_cell": 64,
+  "epochs": 36,
+  "alpha": 0.05,
+  "sdp_attempts_per_cell": 64,
+  "sdp_engine": "slsqp",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "torch": "2.10.0+cpu",
+  "elapsed_seconds": 10.4,
+  "notes": "Simulated trusted Pauli projectors; shot allocation is PER setting; 9n vs 2n overall shots. SLSQP values are numerical, not dual-certified."
+}

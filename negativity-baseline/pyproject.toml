@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantneg-baseline"
+version = "0.1.0"
+description = "Finite-shot two-qubit negativity learning and certified lower bounds"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["quantneg*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,24 @@
+{
+  "p": 0.45,
+  "truth_entangled": 0.08749999999999997,
+  "truth_separable": -0.0,
+  "same_partial_probabilities": true,
+  "full_YY_difference": 0.4499999999999999,
+  "nn_outputs": [
+    0.056111764162778854,
+    0.056111764162778854
+  ],
+  "ls_outputs": [
+    -0.0,
+    -0.0
+  ],
+  "sdp_exact_outputs": [
+    0.0,
+    0.0
+  ],
+  "sdp_success": [
+    true,
+    true
+  ],
+  "unavoidable_max_error_half_gap": 0.04374999999999998
+}
